@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RabbitExp003Consumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MONGO_URI": "mongodb://root:root@127.0.0.1:18002",
+        "RABBIT_URI": "amqp://root:root@localhost:18003",
+        "MONGO_DB": "Test"
+      }
+    }
+  }
+}
